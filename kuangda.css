@@ -1,0 +1,682 @@
+body{
+    margin: 0;
+    font-family: "Arial","Microsoft YaHei","\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    height: auto ;
+    background-color: #f6f7f9;
+}
+.display{
+    display: inline-block;
+}
+li {
+  list-style-type: none;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+.clearfix::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+a {
+  text-decoration: none;
+      color: inherit;
+
+}
+h3{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.bigtitle{
+    font-size: 26px;
+    color: #002854;
+    font-family: 'SourceHanSerifCN Bold';
+    cursor:pointer;
+}
+.more{
+    font-size: 18px;
+    color: #9f0211;
+    font-family: 'SourceHanSerifCN Bold';
+    cursor:pointer;
+
+}
+.dingwei{
+    position: relative;
+}
+
+
+
+/*移动标题样式*/
+.header{
+    background-color: rgb(0, 40, 84,0%);
+    width: 100%;
+    height: 132px;
+    margin: 0;
+    font-size: 0;
+    position: fixed;
+    top: 0;
+
+}
+.logo{
+    width: 318px;
+    height: 78px;
+    background:none;
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+}
+.title{
+    font-size: 18px;
+    color:#FFF;
+    font-family: "微软雅黑";
+    padding: 0 18px;
+    font-weight: bold;
+}
+.title2{
+    font-size: 16px;
+    color:#FFF;
+    padding: 5px;
+
+
+}
+.titleblock{
+    margin-left: 880px;
+    margin-top:  18px;
+
+}
+.titleblock2{
+    margin-top: 30px;
+    margin-left: 1500px;
+    vertical-align: top;
+}
+.searchbtn {
+    width: 17px;
+    height: 17px;
+    border: 0;
+    outline: 0;
+    background: url(./pAv/搜索图标.png) no-repeat center;
+    vertical-align: bottom;
+}
+/*轮播图*/
+.lunbo{
+     height: 1000px;
+}
+.lunbo1{
+    background: url(./pAv/轮播图1.jpeg) no-repeat center ;
+    height: 1000px;
+    background-size:  100%;
+}
+.lunboBt{
+    background-color: aqua;
+    position: absolute;
+    top: 911px;
+    left: 2150px;
+    background-color: rgb(255, 255, 255,0%);
+
+}
+.bt{
+    width: 42px;
+    height: 42px;
+    color: #cacaca;
+    font-size:  18px ;
+    font-family: "SourceHanSerifCN Bold";
+    text-align: center;
+    line-height: 42px;
+}
+/*视点和学术*/
+.shiOxue{
+    height: 560px;
+    background-color: #f6f7f9;
+}
+.titlediv1{
+    width: 900px;
+    height: 54px;
+    margin-left: 500px;
+    margin-bottom: 13px;
+    margin-top: 20px;
+}
+.left1{
+
+    margin-left:720px ;
+}
+.left2{
+    margin-left:285px ;
+}
+.shidian{
+    width: 900px;
+    height: 440px;
+    background: #fff;
+    margin-left: 500px;
+    vertical-align: top;
+
+}
+.shiContentL{
+     width: 420px;
+    height: 345px;
+    margin-left: 30px;
+    margin-top: 30px;
+    vertical-align: top;
+
+}
+.shiP{
+    height: 75%;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.shiContentL-T{
+    text-align: left;
+    color: #747474;
+    font-size: 14px;
+    font-family: 'SourceHanSerifCN Bold';
+
+}
+.shiContentR{
+     width: 343px;
+    height: 390px;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-left: 1px solid rgba(33, 95, 112, 0.3);
+
+}
+.shiContentR-div{
+    padding: 3px 0px 3.6px 40px;
+}
+.shiContentR-T{
+    color: #002854;
+    font-size: 18px;
+    font-family: 'SourceHanSerifCN Bold';
+}
+.shiContentR-TD{
+    background: url(./pAv/clock.png) no-repeat;
+    background-position: 0px 5px;
+    color: #7a7a7a !important;
+    font-size: 16px;
+    font-family: 'SourceHanSerifCN Bold';
+    line-height: 28px;
+    margin-top: 5px;
+
+
+}
+.titlediv2{
+    width: 464px;
+    height: 42px;
+    margin-left: 45px;
+}
+.xuesu{
+    width: 394px;
+    height: 380px;
+    background: #fff;
+    margin-left: 45px;
+    padding: 30px;
+
+}
+.xueContentT{
+    font-size: 17px;
+    line-height: 28px;
+    color: #333333;
+    font-family: 'SourceHanSerifCN Bold';
+    margin-left: 30px;
+}
+.xueContentD{
+    line-height: 30px;
+    font-size: 21px;
+    color: #f13b33;
+    font-family: 'SourceHanSerifCN Bold';
+    position: absolute;
+
+}
+.xueContentM{
+    line-height: 34px;
+    font-size: 12px;
+    color: #f13b33;
+    font-family: 'SourceHanSerifCN Bold';
+}
+/*功能表*/
+.FunTable{
+        background: #4177b3;
+        height: 143px;
+}
+.FunTableIn{
+        padding: 15px 30px;
+        position:absolute;
+        left:25% ;
+}
+.FunTP{
+    text-align: center;
+}
+.FunP{
+    height: 61px;
+    width: 175px;
+}
+.FunP01{
+    background:url(./pAv/功能图标01.png) no-repeat center;
+}
+.FunP02{
+    background:url(./pAv/功能图标02.png) no-repeat center;
+}
+.FunP03{
+    background:url(./pAv/功能图标03.png) no-repeat center;
+}.FunP04{
+    background:url(./pAv/功能图标04.png) no-repeat center;
+}
+ .FunP05{
+    background:url(./pAv/功能图标05.png) no-repeat center;
+}
+ .FunP06{
+    background:url(./pAv/功能图标06.png) no-repeat center;
+}
+ .FunP07{
+    background:url(./pAv/功能图标07.png) no-repeat center;
+}
+.FunT{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'SourceHanSerifCN Bold';
+    line-height: 45px;
+}
+/*人文讲堂，信息公告*/
+.RenAndXin{
+    width: 100%;
+    height: 596px;
+    padding-top: 66px;
+}
+.RXinner{
+    width: 1500px;
+    margin: 0 auto;
+}
+.left3{
+    margin-left: 587px;
+}
+.titlediv3{
+    margin-left: 0;
+    margin-top: 0;
+}
+.titlediv4{
+    margin-left: 35px;
+
+}
+.selextIcon{
+    height: 26px;
+    width: 124px;
+    background: url("./pAv/select.png") no-repeat;
+    margin-top: 12px;
+    background-position: 40%;
+
+}
+.quarterBlock{
+        width: 384px;
+        height: 177px;
+        padding: 32px;
+}
+.quarterBlock-Bg1{
+    background: url("./pAv/xuesubg.png") no-repeat;
+    background-size: cover;
+}
+.quarterBlock-Bg2{
+    background-color: #fff;;
+}
+.xuesuFont{
+    padding: 8px 14px;
+    background: #f13b33;
+    color: #fff;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    display: inline-block;
+}
+.xuesuData{
+    padding: 8px 14px;
+    background: #fff;
+    color: #144780;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    display: inline-block;
+}
+.xuesuTitle1,.xuesuTitle2{
+    font-size: 18px;
+    font-family: 'SourceHanSerifCN Bold';
+    display: inline-block;
+    color: #fff;
+    line-height: 28px;
+    height: 56px;
+    margin-top: 13px;
+    margin-bottom: 15px;}
+.xuesuTitle2{
+    color:  #2b2b2b;
+  }
+.xuesuPerson1,.xuesuPerson2{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #fff;
+    white-space: nowrap;
+
+
+}
+.quarterContent-P1,.quarterContent-P2{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #fff;
+        margin-bottom: 13px;
+
+
+}
+.xuesuPerson2{
+    color: #2b2b2b;
+
+}
+.quarterContent-P2{
+        color:  #2b2b2b;}
+.xuesuPlace1,.xuesuPlace2{
+        line-height: 27px;
+        font-size: 18px;
+        font-family: "微软雅黑";
+        color: #fff;
+}
+.xuesuPlace2{
+        color: #2b2b2b;
+}
+.Xinxi{
+    padding: 30px;
+    margin-left: 40px;
+    background: #fff;
+    vertical-align: top;
+    width: 404px;
+    height: 420px;
+}
+.XinxiDate{
+    padding: 10px;
+    background: #e2e2e2;
+    color: #040000;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.XinxiTitle{
+    font-size: 17px;
+    font-family: 'SourceHanSerifCN Medium';
+    color: #3b3b3b;
+    line-height: 34px;
+
+}
+.XinxiContent{
+   margin: 12px;
+
+}
+/*标题表*/
+.TTinner{
+    padding-top: 40px;
+    width: 1400px;
+    margin: 0 auto;
+}
+.TitileTable-title{
+        font-size: 24px;
+        font-family: "SourceHanSerifCN Bold";
+        color: #fff;
+        text-align: center;
+        width: 150px;
+        height: 24px;
+        line-height: 24px;
+        padding: 18px 0px;
+        background: url("./pAv/division-icon.png") no-repeat;
+        background-position: right;
+}
+.TT-Noline{
+    background:none;
+}
+.TTfocus{
+        background: #002854;
+        margin-left: -2px;
+}
+.TTfocus::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #002854;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -10px;
+}
+.TTdiv1{
+}
+.TTdiv2{
+    margin-left: 40px;
+}
+.shuju{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'SourceHanSerifCN Bold';
+}
+.Wmore{
+        color: #fff;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: 'SourceHanSerifCN Bold';
+        vertical-align: baseline;
+        margin-left: 200px;
+}
+/*矿大故事，数据*/
+.SandD{
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+.twoS{
+    margin-top: 40px;
+        font-size:0
+}
+.StoryImg{
+    width: 426px;
+    height: 268px;
+    display: inline-block;
+    background:url("./pAv/Simg.png") no-repeat;
+    background-size:cover ;
+    position: relative;
+}
+.SDate{
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+    padding: 11px;
+    color: #040000;
+    padding-left: 37px;
+    font-family: 'SourceHanSerifCN Bold';
+    background: #e2e2e2 url(./pAv/clock.png) no-repeat 11px center;
+}
+.StoryCon{
+    font-size: 18px;
+    color: #002854;
+    font-family: 'SourceHanSerifCN Bold';
+
+    display: inline-block;
+    line-height: 30px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+    width: 436px;
+}
+.SL{
+    padding-right: 22px;
+}
+.SR{
+    padding-left: 22px;
+}
+.Date{
+    width: 414px;
+    height: 337px;
+    margin-left: 50px;
+    padding: 30px 25px;
+    padding-bottom: 15px;
+    box-shadow: 0 0 5px #eaeef3;
+    background: #fff;
+    font-size:0;
+    position: absolute;
+    top: 30px;
+}
+.DateContent{
+    padding: 2px 25px;
+}
+.DateImg{
+    width: 157px;
+    height: 75px;
+    background: url("./pAv/dataImg.png") no-repeat;
+    background-position: left center;
+
+
+}
+.DateNum{
+    font-size: 23px;
+    color: #002854;
+    font-family: 'SourceHanSerifCN Bold';
+    line-height: 34px;
+}
+.DateDetail{
+    color: #333333;
+    font-size: 12px;
+    font-family: 'SourceHanSerifCN Bold';
+    line-height: 22px;
+}
+.DatebuttonList{
+    text-align: center;
+    margin-top: 10px;
+}
+.Datebutton{
+    border: 0;
+    background: #d2d2d2;
+    display: block;
+    height: 3px;
+    width: 10px;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.Darefocus{
+    background-color: #002854;
+}
+/*专题表*/
+.SpecialTable{
+    width: 100%;
+}
+.SpecialTableInner{
+    padding: 50px 0 0;
+    width: 1400px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.SpecialTabletitle{
+    height: 36px;
+    font-size: 26px;
+    color: #002854;
+    font-family: 'SourceHanSerifCN Bold';
+    cursor:pointer;
+}
+.SpecialTableContentList{
+        padding-top: 30px;
+    padding-bottom: 58px;
+}
+.SpecialTableContent{
+    width: 165px;
+    height: 84px;
+    margin-left: 10px;
+    background: url("./pAv/STimg.png")no-repeat;
+    font-size: 17px;
+    font-family: 'SourceHanSerifCN Bold';
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+}
+/*页脚*/
+.Footer{
+    background: url("./pAv/footer.png") no-repeat ;
+    background-size: cover;
+    width: auto;
+    height: 391px;
+}
+.footerInner{
+    padding: 60px 0 12px 0px;
+    position: relative;
+    width: 1400px;
+    margin: 0 auto;
+}
+.kuaisuTitle{
+    font-size: 24px;
+    line-height: 42px;
+    color: #fff;
+    font-family: 'SourceHanSerifCN Bold';
+    height: 52px;
+    background: url("./pAv/line.png") no-repeat;
+    background-position-y:100%;
+}
+.f-w{
+        font-weight: normal;
+}
+.kuaisuiList{
+    padding: 30px 0px;
+    width: 490px;
+    height: 132px;
+}
+.kuaisuContent{
+    width: 110px;
+    height: 17px;
+
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    font-family: 'SourceHanSerifCN Bold';
+    letter-spacing: 1px;
+
+    padding: 8px 0px;
+}
+.footerImgList{
+    width: 350px;
+    height: 172px;
+    position: absolute;
+    top:60px;
+    left: 500px;
+}
+.footerImg1{
+     width: 280px;
+    height: 70px;
+    background: url("./pAv/校徽1.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.footerImg2{
+    width: 280px;
+    height: 150px;
+    background: url("./pAv/wx.png") no-repeat;
+    background-position: center;
+}
+.changyong{
+    float: right;
+}
+.footerInf{
+    border-top: 1px solid #2e4c6d;
+}
+.footerInfInner{
+    padding: 15px 0;
+    width: 1400px;
+    margin: 0 auto;
+}
+.footerInf1{
+    text-align: center;
+    color: #8997a8;
+    font-family: 'SourceHanSerifCN Bold';
+    font-size: 14px;
+}
+
+.footerInf2{
+       color: #eee;
+       margin: 0 3px;
+       text-align: center;
+
+    font-family: 'SourceHanSerifCN Bold';
+    font-size: 14px;
+}
